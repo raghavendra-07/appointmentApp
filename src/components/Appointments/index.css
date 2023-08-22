@@ -1,0 +1,99 @@
+/* Write your CSS here */
+.main-con {
+  background-image: linear-gradient(#fbc7d4, #9796f0);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.inner-con {
+  background-color: #ffffff;
+  margin: 20px;
+  background-size: cover;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.form-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.input-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.btn {
+  background-color: #8b5cf6;
+  border: 1px solid #8b5cf6;
+  border-radius: 5px;
+  color: #ffffff;
+  margin: 8px;
+  height: 30px;
+  width: 50px;
+}
+
+.hr-line {
+  color: #171f46;
+}
+
+.appointment-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.head {
+  color: #171f46;
+  font-family: 'Roboto';
+}
+
+.star-btn {
+  height: 20px;
+  background-color: transparent;
+  color: #9897f0;
+  border: 1px solid #9897f0;
+  border-radius: 6px;
+}
+
+.ul-con {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.title-name {
+  font-family: 'Roboto';
+  color: #b5b7c4;
+}
+
+.date-name {
+  font-family: 'Roboto';
+  color: #b5b7c4;
+}
+
+.title-input {
+  margin-bottom: 8px;
+  margin-top: 5px;
+  width: 200px;
+  height: 24px;
+  border-radius: 3px;
+  border: 1px solid #b5b7c4;
+}
+
+.date-input {
+  margin-bottom: 8px;
+  margin-top: 5px;
+  width: 200px;
+  height: 24px;
+  border-radius: 3px;
+  border: 1px solid #b5b7c4;
+}
